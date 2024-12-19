@@ -1,5 +1,5 @@
 import sqlite3 from 'sqlite3';
-import { Database } from 'sqlite3';
+import type { Database } from 'sqlite3';
 
 export interface User {
     id?: number;
